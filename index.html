@@ -1414,6 +1414,25 @@
             line-height: 1.45
         }
 
+        .challenge-detail {
+            display: none;
+            margin-top: 14px;
+            padding-top: 14px;
+            border-top: 1px solid rgba(200, 132, 58, 0.22);
+        }
+
+        .challenge-card.active .challenge-detail {
+            display: block;
+        }
+
+        .challenge-detail .task {
+            font-size: 13px;
+            color: var(--amber);
+            font-weight: 700;
+            line-height: 1.55;
+            margin: 0;
+        }
+
         /* ── QUICK RECAP ────────────────────────────────────── */
         .quick-recap {
             background: var(--navy);
@@ -4460,142 +4479,145 @@
 
         <!-- PAGE 15 ─ PRESENTATION Q&A CHALLENGE BANK ───────────────────────── -->
         <div class="page" id="page-15">
-            <div class="page-eyebrow">Practice</div>
-            <h1 class="page-title">Presentation Q&A Challenge Bank</h1>
+            <div class="page-eyebrow amber">Practice Upgrade</div>
+            <h1 class="page-title">Presentation Q&amp;A Challenge Bank</h1>
             <p class="page-subtitle">Once the presentation is clear, try the same task with one extra difficulty. Add
                 one challenge at a time.</p>
+            <p class="tap-hint">Tap any card to expand it.</p>
+
             <div class="challenge-grid mt-8">
 
-                <div class="challenge-card" onclick="this.classList.toggle('active')">
+                <div class="challenge-card" onclick="toggleChallengeCard(this)">
                     <div class="challenge-icon"><svg width="16" height="16" style="color:var(--amber)">
                             <use href="#icon-bulb" />
                         </svg></div>
                     <div class="challenge-title">Short Time</div>
                     <div class="challenge-quote">The presentation must be completed in two minutes.</div>
-                    <div class="challenge-example" style="display:none;margin-top:12px">
-                        <p><strong class="task">Challenge:</strong> Keep the same structure but cut everything to the
-                            essential. Frame, map briefly, state the main point, and close with the decision.</p>
+                    <div class="challenge-detail">
+                        <p class="task">Keep the same structure but cut everything to the essential. Frame, map briefly,
+                            state the main point, and close with the decision.</p>
                     </div>
                 </div>
 
-                <div class="challenge-card" onclick="this.classList.toggle('active')">
+                <div class="challenge-card" onclick="toggleChallengeCard(this)">
                     <div class="challenge-icon"><svg width="16" height="16" style="color:var(--amber)">
                             <use href="#icon-bulb" />
                         </svg></div>
                     <div class="challenge-title">Senior Audience</div>
                     <div class="challenge-quote">The audience wants the main point quickly and does not want unnecessary
                         detail.</div>
-                    <div class="challenge-example" style="display:none;margin-top:12px">
-                        <p><strong class="task">Challenge:</strong> Present the same content but lead with the
-                            recommendation and skip the background. Start with: &#8220;The key point is&#8230;&#8221;
-                        </p>
+                    <div class="challenge-detail">
+                        <p class="task">Present the same content but lead with the recommendation and skip the
+                            background. Start with: &#8220;The key point is&#8230;&#8221;</p>
                     </div>
                 </div>
 
-                <div class="challenge-card" onclick="this.classList.toggle('active')">
+                <div class="challenge-card" onclick="toggleChallengeCard(this)">
                     <div class="challenge-icon"><svg width="16" height="16" style="color:var(--amber)">
                             <use href="#icon-bulb" />
                         </svg></div>
                     <div class="challenge-title">Skeptical Question</div>
                     <div class="challenge-quote">&#8220;Why should we believe this is the right option?&#8221;</div>
-                    <div class="challenge-example" style="display:none;margin-top:12px">
-                        <p><strong class="task">Challenge:</strong> Answer calmly and directly without becoming
-                            defensive. Acknowledge the question, give one reason, and connect it to the recommendation.
-                        </p>
+                    <div class="challenge-detail">
+                        <p class="task">Answer calmly and directly without becoming defensive. Acknowledge the question,
+                            give one reason, and connect it to the recommendation.</p>
                     </div>
                 </div>
 
-                <div class="challenge-card" onclick="this.classList.toggle('active')">
+                <div class="challenge-card" onclick="toggleChallengeCard(this)">
                     <div class="challenge-icon"><svg width="16" height="16" style="color:var(--amber)">
                             <use href="#icon-bulb" />
                         </svg></div>
                     <div class="challenge-title">Interrupted</div>
                     <div class="challenge-quote">The audience interrupts before you finish the structure.</div>
-                    <div class="challenge-example" style="display:none;margin-top:12px">
-                        <p><strong class="task">Challenge:</strong> Handle the interruption briefly, then use a signpost
-                            to return: &#8220;To come back to the main point&#8230;&#8221;</p>
+                    <div class="challenge-detail">
+                        <p class="task">Handle the interruption briefly, then use a signpost to return: &#8220;To come
+                            back to the main point&#8230;&#8221;</p>
                     </div>
                 </div>
 
-                <div class="challenge-card" onclick="this.classList.toggle('active')">
+                <div class="challenge-card" onclick="toggleChallengeCard(this)">
                     <div class="challenge-icon"><svg width="16" height="16" style="color:var(--amber)">
                             <use href="#icon-bulb" />
                         </svg></div>
                     <div class="challenge-title">Vague Question</div>
                     <div class="challenge-quote">Someone asks a broad question that is not easy to answer directly.
                     </div>
-                    <div class="challenge-example" style="display:none;margin-top:12px">
-                        <p><strong class="task">Challenge:</strong> Clarify the question before answering: &#8220;Before
-                            I answer, can I check whether you mean&#8230;?&#8221;</p>
+                    <div class="challenge-detail">
+                        <p class="task">Clarify the question before answering: &#8220;Before I answer, can I check
+                            whether you mean&#8230;?&#8221;</p>
                     </div>
                 </div>
 
-                <div class="challenge-card" onclick="this.classList.toggle('active')">
+                <div class="challenge-card" onclick="toggleChallengeCard(this)">
                     <div class="challenge-icon"><svg width="16" height="16" style="color:var(--amber)">
                             <use href="#icon-bulb" />
                         </svg></div>
                     <div class="challenge-title">Unknown Detail</div>
                     <div class="challenge-quote">You do not have the exact number, date, or technical answer.</div>
-                    <div class="challenge-example" style="display:none;margin-top:12px">
-                        <p><strong class="task">Challenge:</strong> Say what you know, be honest about what you do not,
-                            and commit to a follow-up without losing credibility.</p>
+                    <div class="challenge-detail">
+                        <p class="task">Say what you know, be honest about what you do not, and commit to a follow-up
+                            without losing credibility.</p>
                     </div>
                 </div>
 
-                <div class="challenge-card" onclick="this.classList.toggle('active')">
+                <div class="challenge-card" onclick="toggleChallengeCard(this)">
                     <div class="challenge-icon"><svg width="16" height="16" style="color:var(--amber)">
                             <use href="#icon-bulb" />
                         </svg></div>
                     <div class="challenge-title">No Slides</div>
                     <div class="challenge-quote">You need to present clearly without visual support.</div>
-                    <div class="challenge-example" style="display:none;margin-top:12px">
-                        <p><strong class="task">Challenge:</strong> Use only spoken structure, signposting, and clear
-                            language to guide the audience through the message.</p>
+                    <div class="challenge-detail">
+                        <p class="task">Use only spoken structure, signposting, and clear language to guide the audience
+                            through the message.</p>
                     </div>
                 </div>
 
-                <div class="challenge-card" onclick="this.classList.toggle('active')">
+                <div class="challenge-card" onclick="toggleChallengeCard(this)">
                     <div class="challenge-icon"><svg width="16" height="16" style="color:var(--amber)">
                             <use href="#icon-bulb" />
                         </svg></div>
                     <div class="challenge-title">Decision Needed</div>
                     <div class="challenge-quote">The presentation must lead to a decision, not just discussion.</div>
-                    <div class="challenge-example" style="display:none;margin-top:12px">
-                        <p><strong class="task">Challenge:</strong> Close with a clear takeaway, name the decision
-                            needed, and confirm who owns it and when.</p>
+                    <div class="challenge-detail">
+                        <p class="task">Close with a clear takeaway, name the decision needed, and confirm who owns it
+                            and when.</p>
                     </div>
                 </div>
 
-                <div class="challenge-card" onclick="this.classList.toggle('active')">
+                <div class="challenge-card" onclick="toggleChallengeCard(this)">
                     <div class="challenge-icon"><svg width="16" height="16" style="color:var(--amber)">
                             <use href="#icon-bulb" />
                         </svg></div>
                     <div class="challenge-title">Q&amp;A Runs Long</div>
                     <div class="challenge-quote">The questions take more time than expected and you need to close the
                         discussion.</div>
-                    <div class="challenge-example" style="display:none;margin-top:12px">
-                        <p><strong class="task">Challenge:</strong> Answer the current question briefly, then bring the
-                            discussion back to the main takeaway and close clearly.</p>
+                    <div class="challenge-detail">
+                        <p class="task">Answer the current question briefly, then bring the discussion back to the main
+                            takeaway and close clearly.</p>
                     </div>
                 </div>
 
-                <div class="challenge-card" onclick="this.classList.toggle('active')">
+                <div class="challenge-card" onclick="toggleChallengeCard(this)">
                     <div class="challenge-icon"><svg width="16" height="16" style="color:var(--amber)">
                             <use href="#icon-bulb" />
                         </svg></div>
                     <div class="challenge-title">Too Much Information</div>
                     <div class="challenge-quote">The content is messy and needs a clean structure.</div>
-                    <div class="challenge-example" style="display:none;margin-top:12px">
-                        <p><strong class="task">Challenge:</strong> Organise the information into three clear points
-                            before presenting. Choose what to include and what to leave out.</p>
+                    <div class="challenge-detail">
+                        <p class="task">Organise the information into three clear points before presenting. Choose what
+                            to include and what to leave out.</p>
                     </div>
                 </div>
 
             </div>
-            <div class="optional-q mt-20">
-                <div class="optional-q-label">Rule</div>
-                <div class="optional-q-text">Add one challenge at a time. The goal is not to perform perfectly &#8212;
-                    it is to stay clear when the situation becomes more realistic.</div>
+
+            <div class="card mt-20">
+                <div class="section-label mb-8">How to use these</div>
+                <p style="font-size:14px;color:var(--muted);line-height:1.65">Choose one prompt from the Practice
+                    Prompts page and one challenge from this page. Practise using one skill or the full framework. Add
+                    one challenge at a time. The goal is not to sound perfect. The goal is to stay clear, structured,
+                    calm, and professional when the presentation or Q&amp;A becomes more realistic.</p>
             </div>
         </div>
 
@@ -5184,8 +5206,7 @@
                         class="jump-link-desc">Find useful phrases</span></button>
                 <button class="jump-link" onclick="jumpTo(14)"><span class="jump-link-title">Practice
                         Prompts</span><span class="jump-link-desc">Choose focused practice</span></button>
-                <button class="jump-link" onclick="jumpTo(15)"><span class="jump-link-title">Make It More
-                        Realistic</span><span class="jump-link-desc">Add one realistic challenge</span></button>
+                <button class="jump-link" onclick="jumpTo(15)"><span class="jump-link-title">Presentation Q&amp;A Challenge Bank</span><span class="jump-link-desc">Add one realistic challenge</span></button>
                 <button class="jump-link" onclick="jumpTo(16)"><span class="jump-link-title">What Good Looks
                         Like</span><span class="jump-link-desc">Review strong performance</span></button>
             </div>
@@ -5432,6 +5453,10 @@
 
         function toggleFullExample(toggle) {
             toggle.classList.toggle('open');
+        }
+
+        function toggleChallengeCard(card) {
+            card.classList.toggle('active');
         }
 
         // Challenge card expand
