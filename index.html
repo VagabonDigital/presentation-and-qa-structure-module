@@ -1826,7 +1826,8 @@
             transition: var(--transition)
         }
 
-        .lang-phrase:hover {
+        .lang-phrase:hover,
+        .lang-phrase.selected {
             background: var(--teal);
             color: white
         }
@@ -2825,7 +2826,7 @@
                         <div class="section-label on-dark">Typical path</div>
                         <div style="font-size:22px;font-weight:700;color:white;margin-bottom:4px">3&#8211;5 lessons
                         </div>
-                        <div style="font-size:13px;color:rgba(255,255,255,0.55)">Depending on the student&#8217;s
+                        <div style="font-size:13px;color:rgba(255,255,255,0.55)">Depending on your
                             current presentation structure, clarity, and confidence with Q&amp;A.</div>
                     </div>
                 </div>
@@ -3173,7 +3174,7 @@
 
                 <div class="value-map-card" onclick="toggleValueMap(this)">
                     <div class="value-map-type">Pattern 7</div>
-                    <div class="value-map-quote">Guessing when the student does not have the exact answer.</div>
+                    <div class="value-map-quote">Guessing when you do not have the exact answer.</div>
                     <div class="value-map-meta"><strong>Weak pattern:</strong> Pretending to know</div>
                     <div class="value-map-detail">
                         <p style="margin-bottom:8px">If the guess is wrong, the speaker loses credibility. Saying what
@@ -3333,7 +3334,8 @@
                 <div>
                     <div class="info-block">
                         <div class="info-block-label">Why this matters</div>
-                        <div class="info-block-text">Many students start presenting before the audience knows where the
+                        <div class="info-block-text">Many professionals start presenting before the audience knows where
+                            the
                             message is going. This makes even good content feel unclear. A structure map helps the
                             listener follow the presentation and helps the speaker stay organised.</div>
                     </div>
@@ -3444,7 +3446,7 @@
                 <div>
                     <div class="info-block">
                         <div class="info-block-label">Why this matters</div>
-                        <div class="info-block-text">Students often lose clarity because they explain too much
+                        <div class="info-block-text">Professionals often lose clarity because they explain too much
                             background or jump between ideas. A strong explanation does not include everything. It
                             includes the point the listener needs, the reason it matters, and the practical result.
                         </div>
@@ -3496,7 +3498,7 @@
                 </div>
                 <div class="full-example-body">
                     <div class="client-label">Context</div>
-                    <div class="client-quote">The student needs to explain a risk without giving too much background.
+                    <div class="client-quote">You need to explain a risk without giving too much background.
                     </div>
                     <div class="client-label mt-10">Model response</div>
                     <div class="response-text">&#8220;The key point here is timing. The work itself is moving, but the
@@ -3607,8 +3609,8 @@
                 </div>
                 <div class="full-example-body">
                     <div class="client-label">Context</div>
-                    <div class="client-quote">The student has finished explaining the current results and needs to move
-                        to risk.</div>
+                    <div class="client-quote">You have finished explaining the current results and need to move
+                        to the risk section.</div>
                     <div class="client-label mt-10">Model response</div>
                     <div class="response-text">&#8220;Just to summarise this part, the results are moving in the right
                         direction. That brings me to the main risk, which is the approval timeline.&#8221;</div>
@@ -3669,8 +3671,8 @@
                 <div>
                     <div class="info-block">
                         <div class="info-block-label">Why this matters</div>
-                        <div class="info-block-text">Q&amp;A often feels harder than the presentation because the
-                            student cannot fully prepare every answer. Under pressure, students may answer too quickly,
+                        <div class="info-block-text">Q&amp;A often feels harder than the presentation because
+                            you cannot fully prepare every answer. Under pressure, professionals may answer too quickly,
                             over-explain, misunderstand the question, or sound defensive. A controlled Q&amp;A answer
                             slows the moment down and answers the real question.</div>
                     </div>
@@ -3836,7 +3838,7 @@
                 </div>
                 <div class="full-example-body">
                     <div class="client-label">Context</div>
-                    <div class="client-quote">The student has presented a recommendation and answered two questions.
+                    <div class="client-quote">You have presented a recommendation and answered two questions.
                     </div>
                     <div class="client-label mt-10">Model response</div>
                     <div class="response-text">&#8220;To close, the main takeaway is that the recommendation is still
@@ -5003,7 +5005,7 @@
 
         <!-- QUICK REFERENCE ─ JUMP-ONLY, NOT IN PAGE FLOW ──────────── -->
         <div class="page" id="quick-reference">
-            <div class="page-eyebrow">Student Reference</div>
+            <div class="page-eyebrow">Quick Reference</div>
             <h1 class="page-title">Presentation and Q&amp;A Structure Quick Reference</h1>
             <p class="page-subtitle">A compact review of the framework, key phrases, and one model presentation
                 sequence.</p>
@@ -5206,18 +5208,19 @@
                         class="jump-link-desc">Find useful phrases</span></button>
                 <button class="jump-link" onclick="jumpTo(14)"><span class="jump-link-title">Practice
                         Prompts</span><span class="jump-link-desc">Choose focused practice</span></button>
-                <button class="jump-link" onclick="jumpTo(15)"><span class="jump-link-title">Presentation Q&amp;A Challenge Bank</span><span class="jump-link-desc">Add one realistic challenge</span></button>
+                <button class="jump-link" onclick="jumpTo(15)"><span class="jump-link-title">Presentation Q&amp;A
+                        Challenge Bank</span><span class="jump-link-desc">Add one realistic challenge</span></button>
                 <button class="jump-link" onclick="jumpTo(16)"><span class="jump-link-title">What Good Looks
                         Like</span><span class="jump-link-desc">Review strong performance</span></button>
             </div>
             <div class="jump-section-label">Finish</div>
             <div class="jump-links">
                 <button class="jump-link" onclick="jumpTo(17)"><span class="jump-link-title">Presentation and Q&amp;A
-                        Complete</span><span class="jump-link-desc">Review what the student can now do</span></button>
+                        Complete</span><span class="jump-link-desc">Review what you can now do</span></button>
                 <button class="jump-link" onclick="jumpTo(18)"><span class="jump-link-title">Bonus Round</span><span
                         class="jump-link-desc">Optional extra practice</span></button>
                 <button class="jump-link" id="qr-jump-link" onclick="jumpToQuickReference()"><span
-                        class="jump-link-title">Quick Reference</span><span class="jump-link-desc">Compact student
+                        class="jump-link-title">Quick Reference</span><span class="jump-link-desc">Compact
                         takeaway</span></button>
             </div>
         </div>
@@ -5456,17 +5459,21 @@
         }
 
         function toggleChallengeCard(card) {
-            card.classList.toggle('active');
+            const wasActive = card.classList.contains('active');
+
+            document.querySelectorAll('.challenge-card').forEach(function (c) {
+                c.classList.remove('active');
+            });
+
+            if (!wasActive) {
+                card.classList.add('active');
+            }
         }
 
-        // Challenge card expand
-        document.addEventListener('click', function (e) {
-            const card = e.target.closest('.challenge-card');
-            if (!card) return;
-            const example = card.querySelector('.challenge-example');
-            if (example) {
-                example.style.display = card.classList.contains('active') ? 'block' : 'none';
-            }
+        document.querySelectorAll('.phrase-chip, .lang-phrase').forEach(function (chip) {
+            chip.addEventListener('click', function () {
+                chip.classList.toggle('selected');
+            });
         });
 
         // Close jump panel on Escape
