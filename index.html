@@ -1501,19 +1501,11 @@
             padding: 18px 20px;
             box-shadow: var(--shadow);
             display: grid;
-            grid-template-columns: 56px 1fr auto;
+            grid-template-columns: 56px 1fr;
             gap: 16px;
             align-items: center;
-            transition: var(--transition);
             text-decoration: none;
             color: inherit;
-            cursor: pointer;
-        }
-
-        .next-module-card:hover {
-            transform: translateY(-1px);
-            box-shadow: var(--shadow-md);
-            border-color: rgba(45, 143, 135, 0.28);
         }
 
         .next-module-icon {
@@ -1570,7 +1562,7 @@
             }
 
             .next-module-card {
-                grid-template-columns: 48px 1fr auto;
+                grid-template-columns: 48px 1fr;
                 gap: 14px;
                 padding: 16px;
             }
@@ -3055,17 +3047,15 @@
                 <span class="memory-pill">Close</span>
             </div>
             <div class="mini-example mt-16">
-                <div class="mini-example-label">Mini Example &#8212; Full Sequence</div>
+                <div class="mini-example-label">Mini Example &#8212; Opening Sequence</div>
                 <div class="client-label">Manager</div>
                 <div class="client-quote">&#8220;Can you walk us through your recommendation?&#8221;</div>
                 <div class="client-label mt-10">Response</div>
-                <div class="response-text">&#8220;Of course. I&#8217;ll keep this brief. Today I&#8217;ll focus on the
-                    problem we&#8217;re solving, the option I recommend, and the next step we need to confirm.
-                    I&#8217;ll cover the context first, then the recommendation, and finally the decision we need. The
-                    key point is that option two gives us the clearest path forward. That brings me to the
-                    recommendation itself. On the question of timing, the short answer is that it works if we confirm
-                    this week. The main takeaway is that option two is the safer route, and the next step is approval by
-                    Friday.&#8221;</div>
+                <div class="response-text">&#8220;Of course. Today I&#8217;ll focus on whether a short pilot is the
+                    right next step for improving the handover process.<br><br>I&#8217;ll cover three points: the
+                    current issue, the pilot recommendation, and what we need to confirm before starting.<br><br>The key
+                    point is that the current handover is creating repeated delays. That brings me to the
+                    recommendation: start with one team first, then review the result before expanding it.&#8221;</div>
             </div>
         </div>
 
@@ -3087,8 +3077,8 @@
                             they should listen for. Attention drops immediately.</p>
                         <strong style="font-size:12px;color:var(--navy);display:block;margin-bottom:4px">Better
                             move:</strong>
-                        <p>&#8220;Today I&#8217;ll focus on the project status, the main risk, and the decision we need
-                            by Friday.&#8221;</p>
+                        <p>&#8220;Today I&#8217;ll focus on the current status, the main issue, and the next decision
+                            needed.&#8221;</p>
                         <div class="value-map-move">Frame the purpose early</div>
                     </div>
                 </div>
@@ -3102,7 +3092,7 @@
                             prepare for what is coming, which makes it harder to follow.</p>
                         <strong style="font-size:12px;color:var(--navy);display:block;margin-bottom:4px">Better
                             move:</strong>
-                        <p>&#8220;I&#8217;ll cover three points: progress, the timing risk, and the next step.&#8221;
+                        <p>&#8220;I&#8217;ll cover three points: progress, the main issue, and the next step.&#8221;
                         </p>
                         <div class="value-map-move">Map the structure before the detail</div>
                     </div>
@@ -3117,8 +3107,8 @@
                             without a clear destination becomes noise.</p>
                         <strong style="font-size:12px;color:var(--navy);display:block;margin-bottom:4px">Better
                             move:</strong>
-                        <p>&#8220;The key point is that the timeline is still possible, but approval needs to happen
-                            this week.&#8221;</p>
+                        <p>&#8220;The key point is that the current process can work, but ownership needs to be clearer
+                            before the next stage.&#8221;</p>
                         <div class="value-map-move">Lead with the point, then add context</div>
                     </div>
                 </div>
@@ -3132,7 +3122,7 @@
                             The listener cannot track where one section ends and the next begins.</p>
                         <strong style="font-size:12px;color:var(--navy);display:block;margin-bottom:4px">Better
                             move:</strong>
-                        <p>&#8220;That brings me to the second point: the timing risk.&#8221;</p>
+                        <p>&#8220;That brings me to the second point: the main implementation risk.&#8221;</p>
                         <div class="value-map-move">Use signposting language</div>
                     </div>
                 </div>
@@ -3189,7 +3179,8 @@
                             decide what matters and what to do next, which often means nothing happens.</p>
                         <strong style="font-size:12px;color:var(--navy);display:block;margin-bottom:4px">Better
                             move:</strong>
-                        <p>&#8220;The main takeaway is that we need to confirm the decision owner by Friday.&#8221;</p>
+                        <p>&#8220;The main takeaway is that we need one clear owner before the next stage begins.&#8221;
+                        </p>
                         <div class="value-map-move">Close with a takeaway or next step</div>
                     </div>
                 </div>
@@ -3215,24 +3206,24 @@
                     <div class="info-block">
                         <div class="info-block-label">Why this matters</div>
                         <div class="info-block-text">If the opening is vague, the audience has to work too hard. They do
-                            not know what the presentation is about, why it matters, or what they should listen for. A
-                            clear frame makes the speaker sound more organised from the first sentence.</div>
+                            not know what the message is about, why it matters, or what they should listen for. A clear
+                            frame gives the audience a reason to pay attention from the first sentence.</div>
                     </div>
                     <div class="principle-block">
                         <div class="principle-icon"><svg width="14" height="14" style="color:#C8843A">
                                 <use href="#icon-bulb" />
                             </svg></div>
-                        <div class="principle-text">Start by telling people why they are listening.</div>
+                        <div class="principle-text">Start by telling people why this message matters.</div>
                     </div>
                 </div>
                 <div class="info-block">
                     <div class="info-block-label">Useful language</div>
                     <div class="phrase-chips">
                         <div class="phrase-chip">&#8220;Today I&#8217;ll focus on&#8230;&#8221;</div>
-                        <div class="phrase-chip">&#8220;The purpose of this update is&#8230;&#8221;</div>
-                        <div class="phrase-chip">&#8220;I&#8217;ll keep this brief and focus on&#8230;&#8221;</div>
-                        <div class="phrase-chip">&#8220;By the end, I&#8217;d like us to be clear on&#8230;&#8221;</div>
                         <div class="phrase-chip">&#8220;This is mainly about&#8230;&#8221;</div>
+                        <div class="phrase-chip">&#8220;The purpose of this update is&#8230;&#8221;</div>
+                        <div class="phrase-chip">&#8220;By the end, I&#8217;d like us to be clear on&#8230;&#8221;</div>
+                        <div class="phrase-chip">&#8220;The reason I&#8217;m raising this is&#8230;&#8221;</div>
                     </div>
                 </div>
             </div>
@@ -3241,13 +3232,15 @@
                 <div class="ws-grid">
                     <div class="ws-card weak">
                         <div class="ws-tag">Weak</div>
-                        <div class="ws-text">&#8220;So, I&#8217;m going to talk a little bit about the project and some
-                            things that happened.&#8221;</div>
+                        <div class="ws-text">&#8220;So, I wanted to talk a little bit about the client onboarding
+                            process
+                            and some things that have been happening recently.&#8221;</div>
                     </div>
                     <div class="ws-card strong">
                         <div class="ws-tag">Stronger</div>
-                        <div class="ws-text">&#8220;I&#8217;ll keep this brief. This update is mainly about the timing
-                            risk and the decision we need this week.&#8221;</div>
+                        <div class="ws-text">&#8220;This update is mainly about the client onboarding delay, because it
+                            is
+                            starting to affect delivery times and customer experience.&#8221;</div>
                     </div>
                 </div>
             </div>
@@ -3264,10 +3257,10 @@
                 </div>
                 <div class="full-example-body">
                     <div class="client-label">Manager</div>
-                    <div class="client-quote">&#8220;Can you give us a quick project update?&#8221;</div>
+                    <div class="client-quote">&#8220;What did you want to cover today?&#8221;</div>
                     <div class="client-label mt-10">Model response</div>
-                    <div class="response-text">&#8220;Sure &#8212; I&#8217;ll keep this brief. This is mainly about the
-                        approval timing risk, because it may affect our next step this week.&#8221;</div>
+                    <div class="response-text">&#8220;The focus today is the onboarding handover, because we need to
+                        reduce delays before they start affecting the next group of clients.&#8221;</div>
                 </div>
             </div>
             <div class="practice-section">
@@ -3278,26 +3271,28 @@
                 </div>
                 <div class="practice-pane active" id="p6-c">
                     <div class="practice-card">
-                        <div class="practice-prompt">You have been asked to give a quick update in a meeting.</div>
+                        <div class="practice-prompt">You have been asked to give a quick update about a delayed internal
+                            handover.</div>
                         <div class="practice-task"><strong>Task:</strong> Open with one clear sentence that frames the
-                            purpose of the update. Use: &#8220;I&#8217;ll keep this brief and focus on&#8230;&#8221;
-                        </div>
+                            purpose of the update. Use: &#8220;This is mainly about&#8230;&#8221;</div>
                     </div>
                 </div>
                 <div class="practice-pane" id="p6-a">
                     <div class="practice-card">
-                        <div class="practice-prompt">You need to introduce a short presentation about a client proposal.
-                        </div>
+                        <div class="practice-prompt">You need to introduce a short proposal to improve a client support
+                            process. Response times have increased, and the team needs agreement on one improvement
+                            before
+                            the next reporting cycle.</div>
                         <div class="practice-task"><strong>Task:</strong> Frame the purpose, explain why the audience
                             should listen, and make the desired outcome clear.</div>
                     </div>
                 </div>
                 <div class="practice-pane" id="p6-r">
                     <div class="practice-card">
-                        <div class="practice-prompt">The audience is busy and impatient. They have already started
-                            checking their phones.</div>
-                        <div class="practice-task"><strong>Challenge:</strong> Frame the presentation in one sentence
-                            without sounding rushed or apologetic.</div>
+                        <div class="practice-prompt">The audience is busy and impatient. Several people are already
+                            looking at their next meeting notes.</div>
+                        <div class="practice-task"><strong>Challenge:</strong> Frame the presentation in one clear
+                            sentence without sounding rushed, apologetic, or vague.</div>
                     </div>
                 </div>
             </div>
@@ -3307,8 +3302,8 @@
                     </svg></div>
                 <div>
                     <div class="recap-label">Quick Recap</div>
-                    <div class="recap-text">A clear frame gives the audience a reason to listen from the first sentence.
-                    </div>
+                    <div class="recap-text">A clear frame tells the audience what the message is about and why it
+                        matters.</div>
                     <div class="recap-phrase">&#8220;This is mainly about&#8230;&#8221;</div>
                 </div>
             </div>
@@ -3327,9 +3322,8 @@
                     <div class="info-block">
                         <div class="info-block-label">Why this matters</div>
                         <div class="info-block-text">Many professionals start presenting before the audience knows where
-                            the
-                            message is going. This makes even good content feel unclear. A structure map helps the
-                            listener follow the presentation and helps the speaker stay organised.</div>
+                            the message is going. This makes even useful information feel unclear. A structure map helps
+                            the listener follow the presentation and helps the speaker stay organised.</div>
                     </div>
                     <div class="principle-block">
                         <div class="principle-icon"><svg width="14" height="14" style="color:#C8843A">
@@ -3343,7 +3337,7 @@
                     <div class="phrase-chips">
                         <div class="phrase-chip">&#8220;I&#8217;ll cover three points&#8230;&#8221;</div>
                         <div class="phrase-chip">&#8220;First&#8230;, then&#8230;, and finally&#8230;&#8221;</div>
-                        <div class="phrase-chip">&#8220;I&#8217;ll start with&#8230;, then move to&#8230;&#8221;</div>
+                        <div class="phrase-chip">&#8220;I&#8217;ll structure this in two parts&#8230;&#8221;</div>
                         <div class="phrase-chip">&#8220;There are two things I&#8217;d like to highlight.&#8221;</div>
                         <div class="phrase-chip">&#8220;After that, I&#8217;ll leave time for questions.&#8221;</div>
                     </div>
@@ -3354,13 +3348,14 @@
                 <div class="ws-grid">
                     <div class="ws-card weak">
                         <div class="ws-tag">Weak</div>
-                        <div class="ws-text">&#8220;I have some information about the results, the timeline, and also
-                            some next steps.&#8221;</div>
+                        <div class="ws-text">&#8220;I want to go through the quarterly result, and there are a few
+                            things
+                            behind it, and then maybe we can talk about what to do next.&#8221;</div>
                     </div>
                     <div class="ws-card strong">
                         <div class="ws-tag">Stronger</div>
-                        <div class="ws-text">&#8220;I&#8217;ll cover three points: the current results, the timeline
-                            risk, and the next step we need to confirm.&#8221;</div>
+                        <div class="ws-text">&#8220;I&#8217;ll cover three points: the quarterly result, the main reason
+                            behind the gap, and the next action we recommend.&#8221;</div>
                     </div>
                 </div>
             </div>
@@ -3376,12 +3371,12 @@
                         </svg></div>
                 </div>
                 <div class="full-example-body">
-                    <div class="client-label">Client</div>
-                    <div class="client-quote">&#8220;Take us through your recommendation.&#8221;</div>
+                    <div class="client-label">Director</div>
+                    <div class="client-quote">&#8220;Can you walk us through the recommendation?&#8221;</div>
                     <div class="client-label mt-10">Model response</div>
-                    <div class="response-text">&#8220;I&#8217;ll structure this in three parts: first, the problem
-                        we&#8217;re solving; second, the option I recommend; and third, the next step if you want to
-                        move forward.&#8221;</div>
+                    <div class="response-text">&#8220;Yes. I&#8217;ll structure this in three parts: first, the problem
+                        we are solving; second, the option I recommend; and third, the decision we need today.&#8221;
+                    </div>
                 </div>
             </div>
             <div class="practice-section">
@@ -3392,22 +3387,25 @@
                 </div>
                 <div class="practice-pane active" id="p7-c">
                     <div class="practice-card">
-                        <div class="practice-prompt">You have three topics: progress, risk, and next steps.</div>
+                        <div class="practice-prompt">You have three topics: current performance, main issue, and next
+                            step.</div>
                         <div class="practice-task"><strong>Task:</strong> Map the structure in one clear sentence before
                             giving any detail. Use: &#8220;I&#8217;ll cover three points&#8230;&#8221;</div>
                     </div>
                 </div>
                 <div class="practice-pane" id="p7-a">
                     <div class="practice-card">
-                        <div class="practice-prompt">You are giving a short proposal presentation to a client who has
-                            not heard the recommendation before.</div>
+                        <div class="practice-prompt">You are introducing a short business review. Results are below
+                            target, the main cause is unclear communication between two teams, and you want to recommend
+                            a simpler approval process.</div>
                         <div class="practice-task"><strong>Task:</strong> Preview the full structure before explaining
                             any of the details.</div>
                     </div>
                 </div>
                 <div class="practice-pane" id="p7-r">
                     <div class="practice-card">
-                        <div class="practice-prompt">The presentation time is reduced from ten minutes to five.</div>
+                        <div class="practice-prompt">You prepared a four-point review, but the meeting time is reduced
+                            from ten minutes to three minutes.</div>
                         <div class="practice-task"><strong>Challenge:</strong> Give a shorter structure map with only
                             the two or three essential points. Keep it clean and confident.</div>
                     </div>
@@ -3419,7 +3417,7 @@
                     </svg></div>
                 <div>
                     <div class="recap-label">Quick Recap</div>
-                    <div class="recap-text">A structure map makes the presentation easier to follow before the details
+                    <div class="recap-text">A structure map helps the audience follow the message before the details
                         begin.</div>
                     <div class="recap-phrase">&#8220;I&#8217;ll cover three points&#8230;&#8221;</div>
                 </div>
@@ -3466,14 +3464,16 @@
                 <div class="ws-grid">
                     <div class="ws-card weak">
                         <div class="ws-tag">Weak</div>
-                        <div class="ws-text">&#8220;There were different conversations with the team, and we checked
-                            several things, and it depends a little bit on approval and timing.&#8221;</div>
+                        <div class="ws-text">&#8220;The process has been difficult because different teams are involved,
+                            and we have had a few delays, and people are not always sure who needs to approve
+                            what.&#8221;
+                        </div>
                     </div>
                     <div class="ws-card strong">
                         <div class="ws-tag">Stronger</div>
-                        <div class="ws-text">&#8220;The key point is that the timeline is still possible, but approval
-                            needs to happen this week. If it does not, the launch will probably move by one week.&#8221;
-                        </div>
+                        <div class="ws-text">&#8220;The key point is that ownership is unclear. Because two teams are
+                            approving the same step, decisions are slowing down. What this means in practice is that we
+                            need one decision owner for each stage.&#8221;</div>
                     </div>
                 </div>
             </div>
@@ -3490,11 +3490,12 @@
                 </div>
                 <div class="full-example-body">
                     <div class="client-label">Context</div>
-                    <div class="client-quote">You need to explain a risk without giving too much background.
-                    </div>
+                    <div class="client-quote">You need to explain why response times have become slower without giving
+                        too much background.</div>
                     <div class="client-label mt-10">Model response</div>
-                    <div class="response-text">&#8220;The key point here is timing. The work itself is moving, but the
-                        approval step is still open. That means the main risk is delay, not quality.&#8221;</div>
+                    <div class="response-text">&#8220;The key point here is capacity. The number of requests has
+                        increased, but the support team size has stayed the same. That means the main issue is workload,
+                        not service quality.&#8221;</div>
                 </div>
             </div>
             <div class="practice-section">
@@ -3505,15 +3506,17 @@
                 </div>
                 <div class="practice-pane active" id="p8-c">
                     <div class="practice-card">
-                        <div class="practice-prompt">Explain one point: the project is slightly delayed.</div>
+                        <div class="practice-prompt">Explain one point: the project is slightly over budget.</div>
                         <div class="practice-task"><strong>Task:</strong> Use point, reason, and result. Start with:
                             &#8220;The key point here is&#8230;&#8221;</div>
                     </div>
                 </div>
                 <div class="practice-pane" id="p8-a">
                     <div class="practice-card">
-                        <div class="practice-prompt">You need to explain why a budget increase is needed for the
-                            project.</div>
+                        <div class="practice-prompt">A team needs extra support for the next phase of work. The workload
+                            has increased by 30%, the deadline has not moved, and the current team cannot absorb the
+                            extra
+                            tasks without delaying delivery.</div>
                         <div class="practice-task"><strong>Task:</strong> Give the main point, one reason, and the
                             practical impact. Keep it to three sentences maximum.</div>
                     </div>
@@ -3578,13 +3581,13 @@
                 <div class="ws-grid">
                     <div class="ws-card weak">
                         <div class="ws-tag">Weak</div>
-                        <div class="ws-text">&#8220;The results are positive. The timeline is difficult. We also need a
-                            decision.&#8221;</div>
+                        <div class="ws-text">&#8220;The feedback was better this month, and there are still some process
+                            issues, and we should probably talk about the next stage as well.&#8221;</div>
                     </div>
                     <div class="ws-card strong">
                         <div class="ws-tag">Stronger</div>
-                        <div class="ws-text">&#8220;The results are positive. That brings me to the main timing issue,
-                            which is approval. After that, I&#8217;ll explain the decision we need.&#8221;</div>
+                        <div class="ws-text">&#8220;Just to summarise this part, the feedback has improved. That brings
+                            me to the process issue that is still slowing down the next stage.&#8221;</div>
                     </div>
                 </div>
             </div>
@@ -3601,11 +3604,11 @@
                 </div>
                 <div class="full-example-body">
                     <div class="client-label">Context</div>
-                    <div class="client-quote">You have finished explaining the current results and need to move
-                        to the risk section.</div>
+                    <div class="client-quote">You have finished explaining the current performance and need to move to
+                        the recommendation.</div>
                     <div class="client-label mt-10">Model response</div>
-                    <div class="response-text">&#8220;Just to summarise this part, the results are moving in the right
-                        direction. That brings me to the main risk, which is the approval timeline.&#8221;</div>
+                    <div class="response-text">&#8220;That covers the current performance. Let&#8217;s move to the
+                        recommendation and the change I think would make the biggest difference.&#8221;</div>
                 </div>
             </div>
             <div class="practice-section">
@@ -3616,17 +3619,18 @@
                 </div>
                 <div class="practice-pane active" id="p9-c">
                     <div class="practice-card">
-                        <div class="practice-prompt">You have just finished point one. Now move to point two.</div>
+                        <div class="practice-prompt">You have just finished point one: current performance. Now move to
+                            point two: the main issue.</div>
                         <div class="practice-task"><strong>Task:</strong> Use one signposting phrase to guide the
                             listener to the next section. Use: &#8220;That brings me to&#8230;&#8221;</div>
                     </div>
                 </div>
                 <div class="practice-pane" id="p9-a">
                     <div class="practice-card">
-                        <div class="practice-prompt">You are presenting three sections: current status, risk, and
-                            recommended next step.</div>
-                        <div class="practice-task"><strong>Task:</strong> Use a clear transition between each section so
-                            the audience can follow the structure.</div>
+                        <div class="practice-prompt">You are presenting three sections: current results, customer
+                            feedback, and your recommended next step.</div>
+                        <div class="practice-task"><strong>Task:</strong> Write clear transitions from section one to
+                            section two, and from section two to section three.</div>
                     </div>
                 </div>
                 <div class="practice-pane" id="p9-r">
@@ -3672,7 +3676,8 @@
                         <div class="principle-icon"><svg width="14" height="14" style="color:#C8843A">
                                 <use href="#icon-bulb" />
                             </svg></div>
-                        <div class="principle-text">Do not answer faster than you understand.</div>
+                        <div class="principle-text">Pause before you answer. Make sure you understand the question
+                            first.</div>
                     </div>
                 </div>
                 <div class="info-block">
@@ -3682,10 +3687,9 @@
                         <div class="phrase-chip">&#8220;Before I answer, can I check one thing?&#8221;</div>
                         <div class="phrase-chip">&#8220;Let me answer that in two parts.&#8221;</div>
                         <div class="phrase-chip">&#8220;What I can say at this stage is&#8230;&#8221;</div>
-                        <div class="phrase-chip">&#8220;Let me separate what I know from what I need to confirm.&#8221;
-                        </div>
-                        <div class="phrase-chip">&#8220;I don&#8217;t have the exact figure, but I can confirm it after
-                            this meeting.&#8221;</div>
+                        <div class="phrase-chip">&#8220;What I still need to confirm is&#8230;&#8221;</div>
+                        <div class="phrase-chip">&#8220;I don&#8217;t want to guess, but I can confirm that after this
+                            meeting.&#8221;</div>
                     </div>
                 </div>
             </div>
@@ -3694,13 +3698,15 @@
                 <div class="ws-grid">
                     <div class="ws-card weak">
                         <div class="ws-tag">Weak</div>
-                        <div class="ws-text">&#8220;Um, yes, I think it depends, but probably we can do it, although
-                            there are some things to check.&#8221;</div>
+                        <div class="ws-text">&#8220;Um, yes, I think we should be able to do most of it, but it depends
+                            on a few things, and I need to check with the team, but probably it should be okay.&#8221;
+                        </div>
                     </div>
                     <div class="ws-card strong">
                         <div class="ws-tag">Stronger</div>
-                        <div class="ws-text">&#8220;The short answer is yes, but there are two conditions. We need
-                            approval this week, and we need confirmation from the client team.&#8221;</div>
+                        <div class="ws-text">&#8220;The short answer is yes for the first stage. What I still need to
+                            confirm is the final delivery date, and I can come back to you with that by Friday.&#8221;
+                        </div>
                     </div>
                 </div>
             </div>
@@ -3717,10 +3723,12 @@
                 </div>
                 <div class="full-example-body">
                     <div class="client-label">Client</div>
-                    <div class="client-quote">&#8220;Is the timeline you recommended actually realistic?&#8221;</div>
+                    <div class="client-quote">&#8220;Can you guarantee this will be ready by the launch date?&#8221;
+                    </div>
                     <div class="client-label mt-10">Model response</div>
-                    <div class="response-text">&#8220;The short answer is yes, if we confirm approval this week. The
-                        main risk is not the work itself &#8212; it is the decision timing.&#8221;</div>
+                    <div class="response-text">&#8220;The short answer is yes for the core version. The only part I need
+                        to confirm is the final review timing, and I can send that through after I check with the
+                        team.&#8221;</div>
                 </div>
             </div>
             <div class="practice-section">
@@ -3738,10 +3746,10 @@
                 </div>
                 <div class="practice-pane" id="p10-a">
                     <div class="practice-card">
-                        <div class="practice-prompt">A client asks a detailed question about budget after your
-                            presentation. You have most of the information but not all of it.</div>
+                        <div class="practice-prompt">A client asks for the exact cost impact of a new proposal. You know
+                            the service cost and expected timeline, but one supplier quote is still unconfirmed.</div>
                         <div class="practice-task"><strong>Task:</strong> Pause, answer what you know directly, flag
-                            what you need to confirm, and connect back to the main point.</div>
+                            what you need to confirm, and give a clear follow-up time.</div>
                     </div>
                 </div>
                 <div class="practice-pane" id="p10-r">
@@ -3759,8 +3767,8 @@
                     </svg></div>
                 <div>
                     <div class="recap-label">Quick Recap</div>
-                    <div class="recap-text">A controlled answer is direct, structured, and calm. Pause before you speak.
-                    </div>
+                    <div class="recap-text">A controlled answer is direct, structured, calm, and honest about what still
+                        needs to be checked.</div>
                     <div class="recap-phrase">&#8220;The short answer is&#8230;&#8221;</div>
                 </div>
             </div>
@@ -3806,14 +3814,15 @@
                 <div class="ws-grid">
                     <div class="ws-card weak">
                         <div class="ws-tag">Weak</div>
-                        <div class="ws-text">&#8220;So yes, that&#8217;s everything from me. Let me know if you have
-                            questions.&#8221;</div>
+                        <div class="ws-text">&#8220;So yes, that&#8217;s everything from me. Let me know what you think,
+                            and we can maybe discuss the next steps later.&#8221;</div>
                     </div>
                     <div class="ws-card strong">
                         <div class="ws-tag">Stronger</div>
-                        <div class="ws-text">&#8220;The main takeaway is that option two gives us the clearest path
-                            forward. The next step is to confirm approval by Friday so we can keep the timeline.&#8221;
-                        </div>
+                        <div class="ws-text">&#8220;The main takeaway is that the proposal can work, but it needs a
+                            clear
+                            owner before the next phase begins. The next step is to confirm who owns the decision and
+                            what happens next.&#8221;</div>
                     </div>
                 </div>
             </div>
@@ -3830,12 +3839,14 @@
                 </div>
                 <div class="full-example-body">
                     <div class="client-label">Context</div>
-                    <div class="client-quote">You have presented a recommendation and answered two questions.
-                    </div>
+                    <div class="client-quote">You have presented a recommendation and answered two questions. The final
+                        decision is still open.</div>
                     <div class="client-label mt-10">Model response</div>
-                    <div class="response-text">&#8220;To close, the main takeaway is that the recommendation is still
-                        workable, but timing depends on approval this week. I&#8217;ll send a short follow-up with the
-                        decision points and proposed next step.&#8221;</div>
+                    <div class="response-text">&#8220;To close, the main takeaway is that the pilot gives us a low-risk
+                        way
+                        to test the recommendation before a wider rollout. I&#8217;ll send a short summary today, and
+                        the
+                        next step is to confirm the pilot owner and start date.&#8221;</div>
                 </div>
             </div>
             <div class="practice-section">
@@ -3846,25 +3857,25 @@
                 </div>
                 <div class="practice-pane active" id="p11-c">
                     <div class="practice-card">
-                        <div class="practice-prompt">You have just finished presenting a project update.</div>
+                        <div class="practice-prompt">You have just finished presenting a short project update.</div>
                         <div class="practice-task"><strong>Task:</strong> End with one main takeaway. Use: &#8220;The
                             main takeaway is&#8230;&#8221;</div>
                     </div>
                 </div>
                 <div class="practice-pane" id="p11-a">
                     <div class="practice-card">
-                        <div class="practice-prompt">You have presented a recommendation and answered two questions. The
-                            decision is still open.</div>
+                        <div class="practice-prompt">You have presented a recommendation for a two-week pilot program.
+                            The audience is interested, but the decision has not been confirmed yet.</div>
                         <div class="practice-task"><strong>Task:</strong> Close with the takeaway, the decision needed,
                             and a clear next step.</div>
                     </div>
                 </div>
                 <div class="practice-pane" id="p11-r">
                     <div class="practice-card">
-                        <div class="practice-prompt">The meeting is almost out of time. The organiser signals you have
-                            one minute left.</div>
-                        <div class="practice-task"><strong>Challenge:</strong> Close clearly and confidently in one
-                            sentence.</div>
+                        <div class="practice-prompt">The meeting is almost out of time. The organiser says, &#8220;We
+                            need to wrap up now.&#8221;</div>
+                        <div class="practice-task"><strong>Challenge:</strong> Close clearly in one sentence and include
+                            a specific follow-up action.</div>
                     </div>
                 </div>
             </div>
@@ -3988,25 +3999,22 @@
                     <div class="client-label">Client</div>
                     <div class="client-quote">&#8220;Can you walk us through your recommendation?&#8221;</div>
                     <div class="client-label mt-12">Response</div>
-                    <div class="response-text">&#8220;Of course. I&#8217;ll keep this brief. Today I&#8217;ll focus on
-                        the problem we&#8217;re solving, the option I recommend, and the next step we need to
-                        confirm.<br><br>I&#8217;ll cover three points: first, the current issue; second, the two
-                        options; and third, my recommendation.<br><br>The key point is that option two gives us a
-                        simpler path with lower timing risk. Option one is cheaper at the start, but it adds more
-                        coordination and could slow the project down later.<br><br>That brings me to the recommendation.
-                        Based on what we know, I&#8217;d recommend option two because it is easier to implement and
-                        gives us a clearer next step.&#8221;</div>
+                    <div class="response-text">&#8220;Of course. Today I&#8217;ll focus on whether a short pilot is the
+                        right next step for improving the handover process.<br><br>I&#8217;ll cover three points: first,
+                        the current issue; second, the pilot recommendation; and third, what we need to confirm before
+                        starting.<br><br>The key point is that the current handover is creating repeated delays. A
+                        two-week pilot gives us a low-risk way to test a clearer process before making a wider
+                        change.<br><br>That brings me to the recommendation. I&#8217;d suggest running the pilot with
+                        one team first, then reviewing the results before deciding whether to expand it.&#8221;</div>
 
                     <div class="client-label mt-12">Client</div>
-                    <div class="client-quote">&#8220;Is option two more expensive?&#8221;</div>
+                    <div class="client-quote">&#8220;Why not roll it out across everyone straight away?&#8221;</div>
 
                     <div class="client-label mt-12">Response</div>
-                    <div class="response-text">&#8220;The short answer is yes, option two is slightly higher at the
-                        beginning,
-                        but it reduces the risk of delay.<br><br>The main takeaway is that option two is the safer route
-                        if
-                        timing matters. The next step is to confirm approval by Friday so we can keep the project
-                        moving.&#8221;</div>
+                    <div class="response-text">&#8220;The short answer is that a full rollout would move faster at
+                        first, but it also creates more risk if the process needs adjustment.<br><br>The main takeaway
+                        is that the pilot lets us test the change safely before scaling it. The next step is to confirm
+                        the pilot owner and start date.&#8221;</div>
                 </div>
             </div>
 
@@ -4022,11 +4030,13 @@
                         </svg></div>
                 </div>
                 <div class="full-example-body">
-                    <div class="response-text">&#8220;I&#8217;ll keep this brief. I&#8217;ll cover the issue, the
-                        options, and my recommendation. The key point is that option two is slightly more expensive at
-                        the start, but it reduces timing risk. My recommendation is option two if we want the simpler
-                        implementation path. The main takeaway is that we need approval by Friday to keep the
-                        timeline.&#8221;</div>
+                    <div class="response-text">&#8220;Today I&#8217;ll focus on whether a short pilot is the right next
+                        step. I&#8217;ll cover the current issue, the pilot recommendation, and what we need to confirm
+                        before starting. The key point is that the current handover is creating repeated delays, so a
+                        pilot gives us a low-risk way to test the change. That brings me to my recommendation: start
+                        with one team first. If the concern is cost, the short answer is that the pilot can stay within
+                        the current budget. The main takeaway is that we can test the improvement safely before a wider
+                        rollout.&#8221;</div>
                 </div>
             </div>
 
@@ -4035,8 +4045,8 @@
                     style="font-size:13px;font-weight:700;color:var(--amber);text-transform:uppercase;letter-spacing:0.07em;margin-bottom:6px">
                     Make It More Realistic</div>
                 <div style="font-size:14px;color:var(--navy)">Try the same practice again &#8212; but this time the
-                    listener interrupts after your second point and asks: &#8220;Why not just go with the cheaper
-                    option?&#8221;</div>
+                    listener interrupts after your second point and asks: &#8220;Why not roll it out across everyone
+                    straight away?&#8221;</div>
             </div>
 
             <div class="optional-q mt-16">
@@ -4066,7 +4076,7 @@
                         <div class="lang-phrase-list">
                             <div class="lang-phrase">&#8220;Today I&#8217;ll focus on&#8230;&#8221;</div>
                             <div class="lang-phrase">&#8220;The purpose of this update is&#8230;&#8221;</div>
-                            <div class="lang-phrase">&#8220;I&#8217;ll keep this brief and focus on&#8230;&#8221;</div>
+                            <div class="lang-phrase">&#8220;The reason I&#8217;m raising this is&#8230;&#8221;</div>
                             <div class="lang-phrase">&#8220;By the end, I&#8217;d like us to be clear on&#8230;&#8221;
                             </div>
                             <div class="lang-phrase">&#8220;This is mainly about&#8230;&#8221;</div>
@@ -4086,7 +4096,7 @@
                         <div class="lang-phrase-list">
                             <div class="lang-phrase">&#8220;I&#8217;ll cover three points&#8230;&#8221;</div>
                             <div class="lang-phrase">&#8220;First&#8230;, then&#8230;, and finally&#8230;&#8221;</div>
-                            <div class="lang-phrase">&#8220;I&#8217;ll start with&#8230;, then move to&#8230;&#8221;
+                            <div class="lang-phrase">&#8220;I&#8217;ll structure this in two parts&#8230;&#8221;
                             </div>
                             <div class="lang-phrase">&#8220;There are two things I&#8217;d like to highlight.&#8221;
                             </div>
@@ -4192,7 +4202,7 @@
                             <div class="lang-phrase">&#8220;Let me connect that to the recommendation.&#8221;</div>
                             <div class="lang-phrase">&#8220;That links to the next section.&#8221;</div>
                             <div class="lang-phrase">&#8220;I&#8217;ll answer that briefly, then return to the
-                                timeline.&#8221;</div>
+                                main structure.&#8221;</div>
                             <div class="lang-phrase">&#8220;That question connects to the decision we need.&#8221;</div>
                         </div>
                     </div>
@@ -4725,9 +4735,11 @@
                 <div class="client-quote">&#8220;So I talked about the main things, and I think maybe we can discuss if
                     anyone has questions or anything else.&#8221;</div>
                 <div class="client-label mt-10">Stronger</div>
-                <div class="response-text">&#8220;To close, the main takeaway is that option two gives us the clearest
-                    path forward. The decision we need is whether to approve it by Friday. I&#8217;ll follow up with a
-                    short summary and the two implementation steps.&#8221;</div>
+                <div class="response-text">&#8220;To close, the main takeaway is that the pilot gives us a low-risk way
+                    to test the
+                    recommendation before making a wider change. The decision we need is who will own the pilot and when
+                    it should start. I&#8217;ll follow up with a short summary and the two implementation steps.&#8221;
+                </div>
             </div>
 
             <div class="optional-q mt-16">
@@ -4838,9 +4850,7 @@
                     <div class="section-label suggested-next-label">Suggested Next Modules</div>
                     <div class="next-modules">
 
-                        <a class="next-module-card"
-                            href="https://vagabondigital.github.io/meeting-participation-module/" target="_blank"
-                            rel="noopener">
+                        <div class="next-module-card">
                             <div class="next-module-icon">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                                     <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor"
@@ -4856,12 +4866,9 @@
                                 <div class="next-module-desc"><strong>Best if:</strong> you need to contribute more
                                     clearly before, during, and after group discussions.</div>
                             </div>
-                            <div class="next-module-arrow">&#8594;</div>
-                        </a>
+                        </div>
 
-                        <a class="next-module-card"
-                            href="https://vagabondigital.github.io/explaining-value-clearly-module/" target="_blank"
-                            rel="noopener">
+                        <div class="next-module-card">
                             <div class="next-module-icon">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                                     <path d="M3 13 C6 13 7 7 10 7 C13 7 14 13 17 13" fill="none" stroke="currentColor"
@@ -4879,12 +4886,9 @@
                                 <div class="next-module-desc"><strong>Best if:</strong> your presentations need to
                                     connect an idea, service, or recommendation to a clearer business result.</div>
                             </div>
-                            <div class="next-module-arrow">&#8594;</div>
-                        </a>
+                        </div>
 
-                        <a class="next-module-card"
-                            href="https://vagabondigital.github.io/sounding-senior-and-in-control-module/"
-                            target="_blank" rel="noopener">
+                        <div class="next-module-card">
                             <div class="next-module-icon">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                                     <path
@@ -4899,12 +4903,9 @@
                                 <div class="next-module-desc"><strong>Best if:</strong> you need your presentation
                                     answers to sound calmer, more concise, and more credible.</div>
                             </div>
-                            <div class="next-module-arrow">&#8594;</div>
-                        </a>
+                        </div>
 
-                        <a class="next-module-card"
-                            href="https://vagabondigital.github.io/fluency-under-pressure-module/" target="_blank"
-                            rel="noopener">
+                        <div class="next-module-card">
                             <div class="next-module-icon">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                                     <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="currentColor" stroke-width="1.6"
@@ -4917,8 +4918,7 @@
                                 <div class="next-module-desc"><strong>Best if:</strong> you need to stay clear when
                                     questions become fast, difficult, or unexpected.</div>
                             </div>
-                            <div class="next-module-arrow">&#8594;</div>
-                        </a>
+                        </div>
 
                     </div>
                 </div>
@@ -5113,21 +5113,26 @@
                 <div class="client-label">Client</div>
                 <div class="client-quote">&#8220;Can you walk us through your recommendation?&#8221;</div>
                 <div class="client-label mt-10">Response</div>
-                <div class="response-text">&#8220;Of course. I&#8217;ll keep this brief. Today I&#8217;ll focus on the
-                    problem we&#8217;re solving, the option I recommend, and the next step we need to
-                    confirm.<br><br>I&#8217;ll cover three points: the current issue, the two options, and my
-                    recommendation.<br><br>The key point is that option two gives us a simpler path with lower timing
-                    risk. That brings me to the recommendation: I&#8217;d choose option two if timing is the
-                    priority.&#8221;</div>
+                <div class="response-text">&#8220;Of course. Today I&#8217;ll focus on whether a short pilot is the
+                    right next step for improving the handover process.
+                    I&#8217;ll cover three points: the current issue, the pilot recommendation, and what we need to
+                    confirm before starting.
+                    The key point is that the current handover is creating repeated delays, but a pilot lets us test the
+                    change before making a wider rollout.
+                    That brings me to the recommendation: run the pilot with one team first, then review the results
+                    before expanding it.
+                    If the main concern is cost, the short answer is that the pilot can stay within the current budget.
+                    The main takeaway is that the pilot gives us a low-risk way to test the improvement. The next step
+                    is to confirm the owner and start date.&#8221;</div>
 
                 <div class="client-label mt-12">Client</div>
-                <div class="client-quote">&#8220;Is option two more expensive?&#8221;</div>
+                <div class="client-quote">&#8220;Why not roll it out across everyone straight away?&#8221;</div>
 
                 <div class="client-label mt-12">Response</div>
-                <div class="response-text">&#8220;The short answer is yes, it is slightly higher at the beginning, but
-                    it
-                    reduces implementation risk.<br><br>The main takeaway is that option two is the safer route, and the
-                    next step is to confirm approval by Friday.&#8221;</div>
+                <div class="response-text">&#8220;The short answer is that a full rollout would move faster at first,
+                    but it creates more risk if the process needs adjustment.<br><br>The main takeaway is that the pilot
+                    lets us test the change safely before scaling it. The next step is to confirm the pilot owner and
+                    start date.&#8221;</div>
             </div>
 
             <!-- Section 5: Use This When -->
